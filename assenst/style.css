@@ -1,0 +1,99 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+html{
+   background: linear-gradient(90deg, rgb(247, 222, 220) 0%, rgb(245, 245, 245) 50%, rgba(247, 222, 220) 100%);
+    scroll-behavior: smooth;
+}
+
+.nav-wrapper{
+    z-index: 10;
+    position: fixed;
+} 
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+ #principal{
+    margin: 5%;
+    text-align: center;
+ } 
+
+ #principal p{
+    font-size: 18px;
+    text-align: justify;
+ }
+
+ #principal h2{
+    text-align: center;
+ }
+
+ #Piedra{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+ } 
+
+
+ #Hielo{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+ } 
+
+
+ #Acero{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+ } 
+
+
+ #Media{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+ } 
+
+ #Media p{
+    font-size: 18px;
+    text-align: justify;
+ }
+
+ #Moderna{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+ } 
+
+ #Moderna p {
+    font-size: 18px;
+    text-align: justify;
+ }
+
+ .flecha{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(245, 196, 196);
+    text-align: center;
+    line-height: 30px;
+    border-radius: 100%;
+    z-index: 10;
+    position: fixed;
+    right: 10px;
+    bottom: 60px;
+    text-decoration: solid;
+}
+
+.flecha a{
+    color: black;
+}
+
